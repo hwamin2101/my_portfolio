@@ -112,25 +112,7 @@ export default function SkillsSection() {
           </div>
         </div>
 
-        {/* MOBILE HIỂN THỊ DỌC */}
-        <div className="block lg:hidden mt-20 space-y-12 text-center">
-          <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.3 }}>
-            <h3 className="text-xl font-bold text-orange-400 mb-2">Frontend Engineering</h3>
-            <p className="text-white/75 text-sm">React, Next.js, Tailwind CSS, responsive design.</p>
-          </motion.div>
-          <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.5 }}>
-            <h3 className="text-xl font-bold text-orange-400 mb-2">UI / UX & Product Thinking</h3>
-            <p className="text-white/75 text-sm">Designing seamless, user-focused experiences.</p>
-          </motion.div>
-          <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.7 }}>
-            <h3 className="text-xl font-bold text-orange-400 mb-2">Backend & API Integration</h3>
-            <p className="text-white/75 text-sm">Node.js, Prisma, MongoDB, real-time chat.</p>
-          </motion.div>
-          <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.9 }}>
-            <h3 className="text-xl font-bold text-orange-400 mb-2">Deployment & Optimization</h3>
-            <p className="text-white/75 text-sm">Vercel, Docker, performance tuning, SEO.</p>
-          </motion.div>
-        </div>
+        
       </div>
     </section>
   );

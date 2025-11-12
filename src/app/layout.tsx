@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="vi">
+    <html lang="en">
       <body
         className={`${holtwood.variable} antialiased bg-[var(--bg)] text-[var(--text)]`}
       >

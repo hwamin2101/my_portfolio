@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
     <SmoothScroll />
-      <main className="pt-0">
+      <main className="pt-5">
         <Navbar />
         <HeroSection />
         <ProjectsGrid />

@@ -45,6 +45,10 @@ body::before {
   opacity: 0.15;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 
 
 /* ÉP NAVBAR TRONG SUỐT KHI CHƯA SCROLL */
