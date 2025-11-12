@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "ÉTEL DC",
+    "client": "Restaurant Branding",
+    "year": "2024",
+    "thumb": "/zyu.jpg",
+    "link": "https://etel-dc.com"
+  },
+  {
+    "id": 2,
+    "title": "Press Play",
+    "client": "Music Agency",
+    "year": "2024",
+    "thumb": "/zyu.jpg",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "title": "Jesse Jewelry",
+    "client": "Luxury E-commerce",
+    "year": "2023",
+    "thumb": "/zyu.jpg",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "title": "Turfy Gang",
+    "client": "Streetwear Brand",
+    "year": "2023",
+    "thumb": "/zyu.jpg",
+    "link": "#"
+  },
+  {
+    "id": 5,
+    "title": "BoomBoom Club",
+    "client": "Nightlife Events",
+    "year": "2024",
+    "thumb": "/zyu.jpg",
+    "link": "#"
+  },
+  {
+    "id": 6,
+    "title": "Ownit Fitness",
+    "client": "Mobile App",
+    "year": "2024",
+    "thumb": "/zyu.jpg",
+    "link": "#"
+  }
+]
