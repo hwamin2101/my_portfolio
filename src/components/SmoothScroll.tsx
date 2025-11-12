@@ -8,9 +8,9 @@ export default function SmoothScroll() {
     // Khởi tạo Lenis
     const lenis = new Lenis({
       duration: 0.5,            // Thời gian scroll inertia
-      easing: (t: number) => t, // Hàm easing, bạn có thể thử ease-in-out
+      easing: (t: number) => t * (2 - t), // Hàm easing, bạn có thể thử ease-in-out
       orientation: "vertical",
-      wheelMultiplier: 0.2,       // Điều chỉnh tốc độ scroll với chuột
+      wheelMultiplier: 1.7,       // Điều chỉnh tốc độ scroll với chuột
       smoothWheel: true,        // Mượt khi dùng wheel / trackpad
       infinite: false,          // false nếu muốn giới hạn
     });
