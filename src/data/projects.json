@@ -1,50 +1,34 @@
 [
   {
     "id": 1,
-    "title": "ÉTEL DC",
-    "client": "Restaurant Branding",
-    "year": "2024",
-    "thumb": "/zyu.jpg",
-    "link": "https://etel-dc.com"
+    "title": "Work Nest",
+    "client": "Task Management",
+    "year": "2025",
+    "thumb": "/wnest.png",
+    "link": "https://work-nest-hazel.vercel.app/"
   },
   {
     "id": 2,
-    "title": "Press Play",
-    "client": "Music Agency",
-    "year": "2024",
-    "thumb": "/zyu.jpg",
-    "link": "#"
+    "title": "Real estate",
+    "client": "Rental website",
+    "year": "2025",
+    "thumb": "/rental.png",
+    "link": "https://github.com/hwamin2101/real_estate"
   },
   {
     "id": 3,
-    "title": "Jesse Jewelry",
-    "client": "Luxury E-commerce",
-    "year": "2023",
-    "thumb": "/zyu.jpg",
-    "link": "#"
+    "title": "Flower Lover",
+    "client": "Flower shop",
+    "year": "2024",
+    "thumb": "/flower.png",
+    "link": "https://github.com/NgocHoa2811/FlowerLover"
   },
   {
     "id": 4,
-    "title": "Turfy Gang",
-    "client": "Streetwear Brand",
-    "year": "2023",
-    "thumb": "/zyu.jpg",
-    "link": "#"
-  },
-  {
-    "id": 5,
-    "title": "BoomBoom Club",
-    "client": "Nightlife Events",
+    "title": "Calculator",
+    "client": "calculation app",
     "year": "2024",
-    "thumb": "/zyu.jpg",
-    "link": "#"
-  },
-  {
-    "id": 6,
-    "title": "Ownit Fitness",
-    "client": "Mobile App",
-    "year": "2024",
-    "thumb": "/zyu.jpg",
-    "link": "#"
+    "thumb": "/calculator.png",
+    "link": "https://github.com/hwamin2101/Calculator"
   }
 ]

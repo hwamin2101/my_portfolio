@@ -56,37 +56,39 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
       onMouseLeave={handleMouseLeave}
     >
       <Link href={project.link} target="_blank" className="block">
-        <motion.div
-          className="relative overflow-hidden rounded-3xl shadow-2xl"
-          style={{
-            rotateX,
-            rotateY,
-            scale,
-            perspective: "1200px",
-            transformStyle: "preserve-3d",
-          }}
-          whileHover={{ scale: 1.03 }}
-          transition={{ duration: 0.4 }}
-        >
-          <Image
-            src={project.thumb}
-            alt={project.title}
-            width={800}
-            height={1000}
-            className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-110"
-            priority={index < 3}
-          />
+        {/* Khung cố định - aspect-[4/5] */}
+        <div className="relative overflow-hidden rounded-3xl shadow-2xl aspect-[4/5] bg-gray-800">
+          <motion.div
+            className="w-full h-full"
+            style={{
+              rotateX,
+              rotateY,
+              scale,
+              perspective: "1200px",
+              transformStyle: "preserve-3d",
+            }}
+            whileHover={{ scale: 1.03 }}
+            transition={{ duration: 0.4 }}
+          >
+            <Image
+              src={project.thumb}
+              alt={project.title}
+              fill
+              className="object-cover transition-transform duration-700 group-hover:scale-110"
+              priority={index < 3}
+            />
 
-          <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
-            <div className="p-8 md:p-10 text-white translate-y-8 group-hover:translate-y-0 transition-transform duration-500">
-              <h3 className="text-2xl md:text-3xl font-bold tracking-tight">
-                {project.title}
-              </h3>
-              <p className="mt-2 text-white/80 text-lg">{project.client}</p>
-              <p className="text-sm text-white/60">{project.year}</p>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
+              <div className="p-8 md:p-10 text-white translate-y-8 group-hover:translate-y-0 transition-transform duration-500">
+                <h3 className="text-2xl md:text-3xl font-bold tracking-tight">
+                  {project.title}
+                </h3>
+                <p className="mt-2 text-white/80 text-lg">{project.client}</p>
+                <p className="text-sm text-white/60">{project.year}</p>
+              </div>
             </div>
-          </div>
-        </motion.div>
+          </motion.div>
+        </div>
       </Link>
     </motion.div>
   );
