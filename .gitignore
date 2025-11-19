@@ -12,13 +12,15 @@
 # Ignore package lock files
 package-lock.json
 yarn.lock
-
+# vscode settings (local only)
+.vscode/
 # testing
 /coverage
 
 # next.js
 /.next/
 /out/
+
 
 # production
 /build

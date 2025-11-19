@@ -9,13 +9,13 @@ export default function ProjectsGrid() {
     <section id="projects" className="relative py-32 bg-background">
       {/* TITLE */}
      <div className="max-w-7xl mx-auto px-8 mb-24">
-  {/* TITLE: Projects – chạy ngang từ trái */}
+  {/* TITLE: Projects */}
   <motion.h2
-    initial={{ opacity: 0, x: -200 }}        // bắt đầu từ bên trái
-    whileInView={{ opacity: 1, x: 0 }}       // chạy vào giữa
+    initial={{ opacity: 0, x: -200 }}        
+    whileInView={{ opacity: 1, x: 0 }}      
     viewport={{ 
-      once: false,        // LẶP LẠI mỗi lần scroll qua
-      amount: 0.4         // kích hoạt khi 40% chữ vào viewport
+      once: false,        
+      amount: 0.4         
     }}
     transition={{ 
       duration: 1.2,
@@ -26,16 +26,16 @@ export default function ProjectsGrid() {
     Projects
   </motion.h2>
 
-  {/* SUBTITLE: chạy ngang từ phải */}
+  {/* SUBTITLE */}
   <motion.p
-    initial={{ opacity: 0, x: 200 }}         // bắt đầu từ bên phải
-    whileInView={{ opacity: 1, x: 0 }}       // chạy vào giữa
+    initial={{ opacity: 0, x: 200 }}         
+    whileInView={{ opacity: 1, x: 0 }}       
     viewport={{ 
       once: false, 
       amount: 0.6 
     }}
     transition={{ 
-      delay: 0.4,         // chậm hơn title một chút
+      delay: 0.4,         
       duration: 1.2,
       ease: "easeOut"
     }}
@@ -46,7 +46,8 @@ export default function ProjectsGrid() {
 </div>
 
       {/* GRID */}
-      <div className="max-w-7xl mx-auto px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="max-w-7xl mx-auto px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-12">
+
         {projects.map((project, i) => (
           <ProjectCard key={project.id} project={project} index={i} />
         ))}
